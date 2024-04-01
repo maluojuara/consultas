@@ -1,0 +1,17 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0.55rem 1rem;
+}
+
+.header__hour{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--grey-header);
+}
+
+.header__icons{
+    display: flex;
+    gap: 1rem;
+}
