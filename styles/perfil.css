@@ -1,4 +1,25 @@
 .perfil{
-    background-color: var(--background);
     display: flex;
+    margin: 2rem auto 1.3rem 1rem;
+    align-items: center;
+}
+
+.perfil__texto{
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+    padding-left: 1rem;
+}
+
+.perfil__nome{
+    font-weight: 700;
+    font-size: 22px;
+    color: var(--title-color);
+}
+
+.perfil__hoje
+{
+    font-weight: 400;
+    font-size: 14px;
+    color: var(--thin-text-color);
 }

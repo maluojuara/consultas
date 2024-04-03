@@ -1,0 +1,49 @@
+.consultas__dia{
+    margin-left: 1rem;
+    font-weight: 700;
+    font-size: 16px;
+    color: var(--title-color);
+}
+
+.consultas__card{
+    background-color: white;
+    margin: 1rem;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.card__paciente{
+    display: flex;
+    align-items: center;
+}
+
+.modalidade{
+    display: flex;
+}
+
+.paciente__nome{
+    font-weight: 700;
+    font-size: 14px;
+    color: var(--title-color);
+    margin-bottom: 0.4rem;
+}
+
+.paciente__modalidade{
+    font-weight: 400;
+    font-size: 12px;
+    color: var(--thin-text-color);
+    margin-left: 0.5rem;
+}
+
+.paciente__container{
+    margin-left: 1rem;
+}
+
+.paciente__mensagem{
+    margin-left: auto;
+}
+
+.linha__card{
+    width: calc(100% + 2rem);
+    margin: 0 -1rem;
+}
