@@ -1,3 +1,10 @@
+.consultas{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top: 1.3rem;
+}
+
 .consultas__dia{
     margin-left: 1rem;
     font-weight: 700;
@@ -7,7 +14,7 @@
 
 .consultas__card{
     background-color: white;
-    margin: 1rem;
+    margin: 0 1rem;
     padding: 1rem;
     border-radius: 0.5rem;
 }
@@ -45,5 +52,46 @@
 
 .linha__card{
     width: calc(100% + 2rem);
-    margin: 0 -1rem;
+    margin: 1rem -1rem;
+    color: var(--details-color);
+}
+
+.infos__horario{
+    margin-bottom: 1rem;
+    font-weight: 500;
+    font-size: 12px;
+    color: var( --title-color);
+}
+
+.infos__botoes{
+    display: flex;
+    gap: 1.2rem;
+    justify-content: center;
+}
+
+
+.botoes__video, .botoes__audio, .botao__endereco{
+    font-weight: 500;
+    font-size: 14px;
+    text-decoration: none;
+    padding: 0.8rem 1rem;
+    border-radius: 0.5rem;
+}
+
+.botoes__video{
+    color: white;
+    background-color: var(--orange);
+}
+
+.botoes__audio{
+    color: black;
+    background-color: white;
+    border: solid 1px var(--details-color);
+}
+
+.botao__endereco{
+    color: white;
+    background-color: var(--blue);
+    width: 18.5rem;
+    text-align: center;
 }

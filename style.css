@@ -9,7 +9,9 @@
     --background: #F9F7FE;
     --title-color: #464646;
     --thin-text-color: #A3A3A3;
-    --border-color: #ECECEC;
+    --details-color: rgba(163, 163, 163, 0.1);
+    --orange: #FFB050;
+    --blue: #4894FF;
 }
 
 body{
