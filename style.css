@@ -2,6 +2,8 @@
 @import url('/styles/header.css');
 @import url('/styles/perfil.css');
 @import url('/styles/consultas.css');
+@import url('/styles/footer.css');
+@import url('/styles/botao.css');
 
 :root{
     --main-font: "Montserrat", sans-serif;
