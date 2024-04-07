@@ -1,6 +1,13 @@
+/* 
 .rodape{
+    padding: 2rem;
+}
+
+
+.rodape__fixo{
     position: fixed;
     bottom: 0;
+    left: 0;
     display: flex;
     text-align: center;
     justify-content: space-evenly;
@@ -10,5 +17,5 @@
     padding-top: 1rem;
 
     width: 100%;
-}
+} */
 

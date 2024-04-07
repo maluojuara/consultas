@@ -313,6 +313,7 @@
     </section>
 
     <footer class="rodape">
+        <div class="rodape__fixo">
             <a href="#" class="rodape__opcao">
                 <img src="./assets/Item1.svg" alt="Consultas">
             </a>
@@ -328,22 +329,37 @@
             <a href="#" class="rodape__opcao">
                 <img src="./assets/Item4.svg" alt="Menu">
             </a>
+        </div>
     </footer>
+
+
+<!-- Botão flutuane + interação -->
 
     <div class="botao__flutuante">
         <input type="checkbox" id="mais_opcoes" class="container__botao">
-        <label for="mais_opcoes" class="container__label">
-            <span class="botao">testando o botao</span>
-        </label>
         
-        <div class="opcoes">
-            <ul>
-                <li>Opção 1</li>
-                <li>Opção 2</li>
-                <li>Opção 3</li>
-              </ul>
+        <label for="mais_opcoes" class="container__label">
+            <span class="botao"></span>
+        </label>
+    </div>
+        
+    <div class="botao__clicado">
+        <div class="clicado__elemento">
+            <p class="clicado__elemento__texto">Nova consulta na casa do paciente</p>
+            <a href="#" class="clicado__elemento__link">
+                <img src="./assets/options_pin.svg" class="clicando__elemento__icone" alt="Nova consulta na casa do paciente">
+            </a>
+        </div>
+
+        <div class="clicado__elemento">
+            <p class="clicado__elemento__texto">Nova consulta por vídeo</p>
+            <a href="#" class="clicado__elemento__link">
+                <img src="./assets/options_camera.svg" class="clicando__elemento__icone" alt="Nova consulta por vídeo">
+            </a>
         </div>
     </div>
+
+  
 
 </body>
 </html>
