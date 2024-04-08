@@ -335,30 +335,31 @@
 
 <!-- Botão flutuane + interação -->
 
-    <div class="botao__flutuante">
+    <div class="botao__flutuante__container">
         <input type="checkbox" id="mais_opcoes" class="container__botao">
-        
         <label for="mais_opcoes" class="container__label">
             <span class="botao"></span>
         </label>
-    </div>
-        
-    <div class="botao__clicado">
-        <div class="clicado__elemento">
-            <p class="clicado__elemento__texto">Nova consulta na casa do paciente</p>
-            <a href="#" class="clicado__elemento__link">
-                <img src="./assets/options_pin.svg" class="clicando__elemento__icone" alt="Nova consulta na casa do paciente">
-            </a>
-        </div>
+        <div class="botao__overlay">
+            <ul class="botao__opcoes">
+                <li>
+                    <a href="#" class="botao__opcoes__link">
+                        <p class="botao__opcoes__texto">Nova consulta na casa do paciente</p>
+                        <img src="./assets/options_pin.svg" class="botao__opcoes__img" alt="Nova consulta na casa do paciente">
+                    </a>
+                </li>
 
-        <div class="clicado__elemento">
-            <p class="clicado__elemento__texto">Nova consulta por vídeo</p>
-            <a href="#" class="clicado__elemento__link">
-                <img src="./assets/options_camera.svg" class="clicando__elemento__icone" alt="Nova consulta por vídeo">
-            </a>
+                <li>
+                    <a href="#" class="botao__opcoes__link">
+                        <p class="botao__opcoes__texto">Nova consulta por vídeo</p>
+                        <img src="./assets/options_camera.svg" class="botao__opcoes__img" alt="Nova consulta por vídeo">
+                    </a>
+                </li>
+            </ul>
         </div>
     </div>
 
+   
   
 
 </body>

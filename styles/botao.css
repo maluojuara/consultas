@@ -8,46 +8,60 @@
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
+  z-index: 9999;
 }
 
-.botao__clicado{
-  right: 0rem;
-  bottom: 10rem;
+
+.botao__overlay{
+  display: none; 
+  position: fixed;
+  top: 0;
+  left: 0;
   width: 100%;
   height: 100%;
-  position: fixed;
-  background-color: rgba(0, 0, 0, 0.6);
-  display: none;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
 }
 
-.container__botao:checked ~ .botao__clicado {
+.container__botao:checked ~ .botao__overlay {
   display: block;
 }
 
-.clicado__elemento{
-  display: flex;
-}
-
-.clicado__elemento__texto{
-  color: var(--title-color);
-  background-color: white;
-}
-
-/* .botao__sair{
-  width: 90px;
-  height: 90px;
-  position: fixed;
-  background-image: url('../assets/botao_flutuante.svg');
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-position: center;
-} */
 
 /* para não mostrar a checkbox */
-/* .container__botao{
-  display: none;
-}  */
 
-/* .clicado__sair:checked ~ .botao__clicado {
+.container__botao{
   display: none;
-} */
+}  
+
+/*opçoes botao clicado*/
+
+.botao__opcoes__link{
+  display: flex;
+  align-items: center; 
+}
+
+.botao__opcoes__texto{
+  font-size: 12px;
+  color: var(--title-color);
+  background-color: white;
+  border-radius: 2.3rem;
+  height: 1.4rem;
+  display: flex;
+  align-items: center;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem; 
+}
+
+.botao__opcoes__link{
+  text-decoration: none;
+}
+
+.botao__opcoes{
+  position: absolute; 
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  right: 1rem;
+  bottom: 9.4rem;
+}
