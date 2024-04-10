@@ -139,7 +139,7 @@
 
 @media screen and (min-width: 1728px){
     .consultas{
-        margin: 0 0 0 0;
+        margin: 0 0 0 10rem;
     }
     .consultas__container{
         display: grid;
@@ -152,7 +152,7 @@
 
     .consultas__card{
         box-sizing: border-box;
-        width: 32rem;
+        width: 28rem;
     }
 
     .consultas__dia{
@@ -163,4 +163,13 @@
         padding-bottom: 0.5rem;
         padding-top: 0.5rem;
     }
+
+    .botoes__video:hover, .botao__endereco:hover, .paciente__mensagem__img:hover{
+        opacity: 0.6;
+    }
+
+    .botoes__audio:hover{
+        opacity: 0.4;
+    }
+
 }

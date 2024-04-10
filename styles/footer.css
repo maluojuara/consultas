@@ -19,3 +19,19 @@
     width: 100%;
 }
 
+
+@media screen and (min-width: 1728px){
+    .rodape__fixo{
+        flex-direction: column;
+        text-align: center;
+        top: 0;
+        left: 0;
+        height: 100vh;
+        align-items: center;
+        width: 7rem;
+    }
+
+    .rodape__img:hover{
+        opacity: 0.5;
+    }
+}
