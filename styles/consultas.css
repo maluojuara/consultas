@@ -96,7 +96,7 @@
 .botao__endereco{
     color: white;
     background-color: var(--blue);
-    width: 18.5rem;
+    width: 80%;
     text-align: center;
 }
 
@@ -105,8 +105,62 @@
 /* Responsividade - tablet */
 
 @media screen and (min-width: 1024px){
+
+    .consultas{
+        margin-left: 2.25rem;
+        margin-right: 2.25rem;
+    }
     .consultas__container{
-        flex-direction: row;
-        flex-wrap: wrap;
+        display: grid;
+        grid-template-columns: 1fr 1fr; 
+        grid-column-gap: 0;
+    }
+
+    .consultas__card{
+        box-sizing: border-box;
+    }
+
+    .botao__endereco, .infos__botoes{
+        width: 85%;
+    }
+
+    .botoes__video, .botoes__audio{
+        width: 50%;
+        text-align: center;
+        padding: 1rem;
+    }
+
+    .infos__botoes{
+        justify-content: center;
+        align-items: center;
+        margin-left: 2rem;
+    }
+}
+
+@media screen and (min-width: 1728px){
+    .consultas{
+        margin: 0 0 0 0;
+    }
+    .consultas__container{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr; 
+        grid-column-gap: 0;
+        grid-row-gap: 3rem;
+        margin-left: 3.4rem;
+        margin-right: 3.4rem;
+    }
+
+    .consultas__card{
+        box-sizing: border-box;
+        width: 32rem;
+    }
+
+    .consultas__dia{
+        background-color: rgba(255, 255, 255, 0.3);
+        margin-left: 0;
+        margin-top: 3rem;
+        padding-left: 2rem;
+        padding-bottom: 0.5rem;
+        padding-top: 0.5rem;
     }
 }

@@ -25,3 +25,21 @@
 }
 
 
+@media screen and (min-width: 1728px){
+    .perfil{
+        margin: 2rem auto 0 2rem;
+    }
+
+    .perfil__nome{
+        font-size: 2rem;
+    }
+
+    .perfil__foto{
+        width: 6rem;
+        height: 6rem;
+    }
+
+    .perfil__hoje{
+        font-size: 1.2rem;
+    }
+}
