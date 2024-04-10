@@ -1,6 +1,6 @@
 .botao{
-  width: 90px;
-  height: 90px;
+  width: 5.62rem;
+  height: 5.62rem;
   position: fixed;
   right: 1rem;
   bottom: 4.4rem;
@@ -42,7 +42,7 @@
 }
 
 .botao__opcoes__texto{
-  font-size: 12px;
+  font-size: 0.75rem;
   color: var(--title-color);
   background-color: white;
   border-radius: 2.3rem;
