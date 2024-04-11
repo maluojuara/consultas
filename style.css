@@ -1,9 +1,10 @@
+/* @import url('/styles/reset.css'); */
+@import url('styles/header.css');
+@import url('styles/perfil.css');
+@import url('styles/consultas.css');
+@import url('styles/footer.css');
+@import url('styles/botao.css');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
-@import url('/styles/header.css');
-@import url('/styles/perfil.css');
-@import url('/styles/consultas.css');
-@import url('/styles/footer.css');
-@import url('/styles/botao.css');
 
 :root{
     --main-font: "Montserrat", sans-serif;
