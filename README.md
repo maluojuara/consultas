@@ -13,7 +13,7 @@
 
  <img width="1354" src="https://github.com/maluojuara/consultas/assets/106565510/67b9a220-45a1-4100-a8a7-5e9f4c122cbd">
 
-This repository contains the files from the project developed during the challenge 7 Days of Code: HTML and CSS, responsiveness and mobile-first, from Alura. The project is part of the formation ["From scratch: HTML and CSS for web projects"](https://cursos.alura.com.br/formacao-html-css). 
+This repository contains the files from the project developed during the challenge 7 Days of Code: HTML and CSS, responsiveness and mobile-first, from Alura. The project is part of the learning path ["From scratch: HTML and CSS for web projects"](https://cursos.alura.com.br/formacao-html-css). 
 
 The challenge's objective is to produce a Medical consultation app homepage, based on a previously provided [Figma layout.](https://www.figma.com/file/4OjHFmeHAgfX2JpRymOeA0/7days---Responsividade?node-id=0%3A1&utm_medium=email&_hsenc=p2ANqtz--xKEHOyrWjlLgRSIyOUmzw4y-NaEIaFo7cbgrsRm-QLFVuCsZsauOHmRrvs-C7M1qVHKtxPzz4E3JBPHediuiQMkXdSQ&_hsmi=231362474&utm_content=231362474&utm_source=hs_automation). 
 
